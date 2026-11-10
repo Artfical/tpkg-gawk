@@ -1,0 +1,26 @@
+{
+ "name": "gawk",
+ "version": "5.3.1",
+ "license": "GPL-3.0-or-later",
+ "homepage": "",
+ "licenses": [
+  "LICENSE",
+  "NOTICE.txt"
+ ],
+ "sources": [
+  "gawk-5.3.1.tar.xz"
+ ],
+ "desc": "GNU awk 5.3.1",
+ "file": "gawk-5.3.1.tpkg",
+ "size": 1026782,
+ "sha256": "647a1b9bb55dd13c4a8bf27c4022289fa3350831b07359243eccd86c16b38e35",
+ "unpacked": 2076843,
+ "min_build": 619,
+ "depends": [],
+ "commands": {
+  "awk": "bin/awk",
+  "gawk": "bin/gawk",
+  "gawk-5.3.1": "bin/gawk-5.3.1",
+  "gawkbug": "bin/gawkbug"
+ }
+}
